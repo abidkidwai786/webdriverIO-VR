@@ -1,0 +1,17 @@
+{
+  "reportPortalClientConfig": {
+    "endpoint": "https://reportportal.lambdatest.io/api/v1",
+    "token": "daaeb6b1-bf1c-4e7c-b268-7ed82da0d61e",
+    "project": "4dvanceboy_personal",
+    "mode": "DEFAULT",
+    "debug": false,
+    "description": "Selenium E2E tests for WebApp",
+    "tags": ["e2e", "WebApp", "selenium", "WDIO"]
+  },
+  "reportSeleniumCommands": false,
+  "seleniumCommandsLogLevel": "debug",
+  "parseTagsFromTestTitle": true,
+  "autoAttachScreenshots": true,
+  "screenshotsLogLevel": "info",
+  "sanitizeErrorMessages": true
+}
