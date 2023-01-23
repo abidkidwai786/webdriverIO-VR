@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "npm run single && npm run parallel && npm run multiple",
-    "single": "node_modules/.bin/wdio conf/single.conf.js ",
-    "vr": "wdio run conf\\single.conf.js"
+    "parallel": "node_modules/.bin/wdio conf/parallel.conf.js ",
+    "vr": "node_modules/.bin/wdio conf/single.conf.js"
   },
   "keywords": [],
   "author": "",
