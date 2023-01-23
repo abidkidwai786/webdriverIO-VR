@@ -11,7 +11,7 @@ exports.config = {
     // 'path/to/excluded/files'
   ],
 
-  maxInstances: 1,
+  maxInstances: 10,
     
   
   user: LT_USER,  //LambdaTest Username
@@ -20,8 +20,8 @@ exports.config = {
 
   commonCapabilities: {
     name: "Parallel Sample Test",
-    build: "Visual Regression Build Parallel",
-    "smartUI.project": "Wdio-Visual-b", // Visual regression project name
+    build: "Visual Regression Build Parallel 1",
+    "smartUI.project": "Wdio-Visual-c", // Visual regression project name
     "smartUI.build":"Build 1",
   },
 
@@ -30,7 +30,17 @@ exports.config = {
       platfrom: "Windows 10",
       browserName: "Chrome",
       version: "latest",
-    }
+    },
+    {
+      platform: "Windows 10",
+      browserName: "Firefox",
+      version: "latest",
+    },
+    {
+      platform: "Windows 10",
+      browserName: "MicrosoftEdge",
+      version: "latest",
+    },
   ],
 
 
